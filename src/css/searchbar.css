@@ -1,0 +1,29 @@
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  width: 399px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dad9d9;
+}
+
+.searchBar form {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 15px;
+  margin-left: 15px;
+}
+
+.searchBar form input {
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
